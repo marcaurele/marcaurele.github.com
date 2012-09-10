@@ -1,0 +1,12 @@
+<html>
+	<head>
+		<title>Month likns index</title>
+	</head>
+	<body>
+		<h1>Month links index</h1>
+		{% for object in object_list %}
+			<h2>{{ object.title }}</h2>
+			<p><a href="/weblog/links/{{ object|date:"Y/b/%d/" }}">Check day links archive</a></p>
+		{% endfor %}
+	</body>
+</html>

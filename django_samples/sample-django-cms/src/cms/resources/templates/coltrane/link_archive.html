@@ -1,0 +1,13 @@
+<html>
+	<head>
+		<title>Last links index</title>
+	</head>
+	<body>
+		<h1>Last links index</h1>
+		{% for object in latest %}
+			<h2>{{ object.title }}</h2>
+			<p>Published on {{ object.pub_date|date:"F j, Y" }}</p>
+			<p><a href="{{ object.get_absolute_url }}">Check link information</a></p>
+		{% endfor %}
+	</body>
+</html>

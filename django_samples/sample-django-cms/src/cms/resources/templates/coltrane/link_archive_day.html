@@ -1,0 +1,12 @@
+<html>
+	<head>
+		<title>Day links index</title>
+	</head>
+	<body>
+		<h1>Day links index</h1>
+		{% for object in object_list %}
+			<h2>{{ object.title }}</h2>
+			<p><a href="{{ object.get_absolute_url }}">Check link information</a></p>
+		{% endfor %}
+	</body>
+</html>

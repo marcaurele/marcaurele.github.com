@@ -1,0 +1,2 @@
+Posted by: {{ obj.user.username }}<br/>
+Tags: {% for tag in obj.tag_set.all %}{{ tag.name }} {% endfor %}

@@ -1,0 +1,60 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2010-10-12 10:29+0200\n"
+"PO-Revision-Date: 2010-10-12 10:29+0100\n"
+"Last-Translator: \n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n>1;\n"
+
+#: bookmarks/forms.py:72
+msgid "Friend's Name"
+msgstr "Nom de votre ami"
+
+#: bookmarks/forms.py:73
+msgid "Friend's Email"
+msgstr "Email de votre ami"
+
+#: bookmarks/views.py:329
+#, python-format
+msgid "An invitation has been sent to %(email)s."
+msgstr ""
+"Une invitation a bien &eacute;t&eacute; envoy&eacute; &agrave; %(email)s."
+
+#: bookmarks/views.py:333
+msgid "An error happened when sending the invitation."
+msgstr "Une erreur est survenue pendant l'envoi de l'invitation"
+
+#: templates/friend_invite.html:4 templates/friend_invite.html.py:6
+msgid "Invite a friend"
+msgstr "Invit&eacute; un ami"
+
+#: templates/friend_invite.html:9
+msgid ""
+"Enter your friend name and email below, and click \"send invite\" to invite "
+"your friend to join the site:"
+msgstr ""
+"&Eacute;crivez le nom de votre ami et son email ci-dessous, et cliquez sur "
+"\"Envoyer l'invitation\" pour inviter votre ami &agrave; rejoindre le site:"
+
+#: templates/friend_invite.html:13
+msgid "send invite"
+msgstr "Envoyer l'invitation"
+
+#: templates/admin/base_site.html:4
+msgid "Django Bookmarks site admin"
+msgstr ""
+
+#: templates/admin/base_site.html:7
+msgid "Django Bookmarks administration"
+msgstr ""

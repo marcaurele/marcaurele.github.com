@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+
+{% block external %}
+	<script src="/site_media/jquery-ui-1.8.5.custom.min.js"></script>
+	<script src="/site_media/tag_autocomplete.js"></script>
+{% endblock %}
+
+{% block title %}Save Bookmark{% endblock %}
+
+{% block head %}Save Bookmark{% endblock %}
+
+{% block content %}
+  {% include "bookmark_save_form.html" %}
+{% endblock %}

@@ -1,0 +1,26 @@
+Darwin ports
+
+#Update repository:
+sudo port selfupdate
+
+#Install program:
+sudo port install <pgm-name>
+
+#Check installed
+port installed
+
+#Check outdated
+port outdated
+
+#Upgrade
+sudo port upgrade <pgm-name>
+
+#Upgrade all outdated
+sudo port upgrade outdated
+
+#Removing inactive ports (old versions)
+port installed inactive
+sudo port uninstall inactive
+
+#Clean building temp files
+sudo port clean --all vile

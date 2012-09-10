@@ -1,0 +1,15 @@
+<html>
+	<head>
+		<title>{{ category.title }} - Category</title>
+	</head>
+	<body>
+		<h1>{{ category.title }}</h1>
+		<p>{{ category.description|safe }}</p>
+		<h2>Post associated to this category</h2>
+		<ul>
+		{% for post in object_list %}
+			<li><a href="{{ post.get_absolute_url }}">{{ post.title }}</a></li>
+		{% endfor %}
+		</ul>
+	</body>
+</html>
